@@ -1,8 +1,8 @@
 module Day1
 
-using AdventOfCode20XX
+using AdventOfCode2020
 
-function solve(input=pkgdir(AdventOfCode20XX, "data", "Day1.txt"))
+function solve(input=pkgdir(AdventOfCode2020, "data", "Day1.txt"))
     p1 = 0
     p2 = 1
 

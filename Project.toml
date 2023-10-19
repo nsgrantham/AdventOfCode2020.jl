@@ -1,5 +1,5 @@
-name = "AdventOfCode20XX"
-uuid = "d9e317d5-4954-4b97-b518-88dc75cedddc"  # Generate a new package UUID with `using UUIDs; UUIDs.uuid4()`
+name = "AdventOfCode2020"
+uuid = "2fc4f94d-9fa5-486a-b8ba-22092bcf3846"
 authors = ["Neal Grantham <neal@nsgrantham.com>"]
 version = "0.1.0"
 

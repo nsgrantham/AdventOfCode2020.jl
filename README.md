@@ -1,12 +1,12 @@
-# AdventOfCode20XX.jl
+# AdventOfCode2020.jl
 
-[![Build Status](https://github.com/nsgrantham/AdventOfCode20XX.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/nsgrantham/AdventOfCode20XX.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Build Status](https://github.com/nsgrantham/AdventOfCode2020.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/nsgrantham/AdventOfCode2020.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
-My solutions to [Advent of Code 20XX](https://adventofcode.com/20XX) using Julia.
+My solutions to [Advent of Code 2020](https://adventofcode.com/2020) using Julia.
 
 | Puzzle                                                              | Input                         | Solver                     |
 |:--------------------------------------------------------------------|:------------------------------|:---------------------------|
-| [Day 1](https://adventofcode.com/20XX/day/1)                        | [Day1.txt](./data/Day1.txt)   | [Day1.jl](./src/Day1.jl)   |
+| [Day 1: Report Repair](https://adventofcode.com/2020/day/1)         | [Day1.txt](./data/Day1.txt)   | [Day1.jl](./src/Day1.jl)   |
 
 
 ## Install
@@ -14,7 +14,7 @@ My solutions to [Advent of Code 20XX](https://adventofcode.com/20XX) using Julia
 ```julia
 using Pkg
 
-Pkg.add(url = "https://github.com/nsgrantham/AdventOfCode20XX.jl")
+Pkg.add(url = "https://github.com/nsgrantham/AdventOfCode2020.jl")
 ```
 
 ## Test
@@ -22,13 +22,13 @@ Pkg.add(url = "https://github.com/nsgrantham/AdventOfCode20XX.jl")
 ```julia
 using Pkg
 
-Pkg.test("AdventOfCode20XX")
+Pkg.test("AdventOfCode2020")
 ```
 
 ## Solve
 
 ```julia
-using AdventOfCode20XX
+using AdventOfCode2020
 
-AdventOfCode20XX.Day1.solve()
+AdventOfCode2020.Day1.solve()
 ```
