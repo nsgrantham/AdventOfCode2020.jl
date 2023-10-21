@@ -14,3 +14,13 @@ using Test
 
     @test AdventOfCode2020.Day1.solve(IOBuffer(example)) == (514579, 241861950)
 end
+
+@testset "Day 2" begin
+    example = """
+    1-3 a: abcde
+    1-3 b: cdefg
+    2-9 c: ccccccccc
+    """
+
+    @test AdventOfCode2020.Day2.solve(IOBuffer(example)) == (2, 1)
+end
