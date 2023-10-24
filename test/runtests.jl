@@ -24,3 +24,21 @@ end
 
     @test AdventOfCode2020.Day2.solve(IOBuffer(example)) == (2, 1)
 end
+
+@testset "Day 3" begin
+    example = """
+    ..##.......
+    #...#...#..
+    .#....#..#.
+    ..#.#...#.#
+    .#...##..#.
+    ..#.##.....
+    .#.#.#....#
+    .#........#
+    #.##...#...
+    #...##....#
+    .#..#...#.#
+    """
+    
+    @test AdventOfCode2020.Day3.solve(IOBuffer(example)) == (7, 336)
+end
