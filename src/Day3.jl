@@ -2,6 +2,7 @@ module Day3
 
 using AdventOfCode2020
 
+
 function count_trees(grid, slope)
     n = size(grid, 1)
     s = 0
