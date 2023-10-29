@@ -4,12 +4,13 @@
 
 My solutions to [Advent of Code 2020](https://adventofcode.com/2020) using Julia.
 
-| Puzzle                                                              | Input                         | Solver                     | Topics               |
-|:--------------------------------------------------------------------|:------------------------------|:---------------------------|:---------------------|
-| [Day 1: Report Repair](https://adventofcode.com/2020/day/1)         | [Day1.txt](./data/Day1.txt)   | [Day1.jl](./src/Day1.jl)   | Sets, Combinations   |
-| [Day 2: Password Philosophy](https://adventofcode.com/2020/day/2)   | [Day2.txt](./data/Day2.txt)   | [Day2.jl](./src/Day2.jl)   | Regex, Boolean Logic |
-| [Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3)   | [Day3.txt](./data/Day3.txt)   | [Day3.jl](./src/Day3.jl)   | Modulo Arithmetic    |
-| [Day 4: Passport Processing](https://adventofcode.com/2020/day/4)   | [Day4.txt](./data/Day4.txt)   | [Day4.jl](./src/Day4.jl)   | String Parsing       |
+| Puzzle                                                              | Input                         | Solver                     | Topics                          |
+|:--------------------------------------------------------------------|:------------------------------|:---------------------------|:--------------------------------|
+| [Day 1: Report Repair](https://adventofcode.com/2020/day/1)         | [Day1.txt](./data/Day1.txt)   | [Day1.jl](./src/Day1.jl)   | Sets, Combinations              |
+| [Day 2: Password Philosophy](https://adventofcode.com/2020/day/2)   | [Day2.txt](./data/Day2.txt)   | [Day2.jl](./src/Day2.jl)   | Regex, Boolean Logic            |
+| [Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3)   | [Day3.txt](./data/Day3.txt)   | [Day3.jl](./src/Day3.jl)   | Modulo Arithmetic               |
+| [Day 4: Passport Processing](https://adventofcode.com/2020/day/4)   | [Day4.txt](./data/Day4.txt)   | [Day4.jl](./src/Day4.jl)   | String Parsing                  |
+| [Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)       | [Day5.txt](./data/Day5.txt)   | [Day5.jl](./src/Day5.jl)   | Binary Space Partitioning, Sets |
 
 ## Install
 

@@ -105,3 +105,10 @@ end
     @test !any(AdventOfCode2020.Day4.is_valid, invalid_passports)
     @test all(AdventOfCode2020.Day4.is_valid, valid_passports)
 end
+
+@testset "Day 5" begin
+    @test AdventOfCode2020.Day5.find_seat("FBFBBFFRLR") == 357
+    @test AdventOfCode2020.Day5.find_seat("BFFFBBFRRR") == 567
+    @test AdventOfCode2020.Day5.find_seat("FFFBBBFRRR") == 119
+    @test AdventOfCode2020.Day5.find_seat("BBFFBBFRLL") == 820
+end
