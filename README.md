@@ -11,6 +11,7 @@ My solutions to [Advent of Code 2020](https://adventofcode.com/2020) using Julia
 | [Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3)   | [Day3.txt](./data/Day3.txt)   | [Day3.jl](./src/Day3.jl)   | Modulo Arithmetic               |
 | [Day 4: Passport Processing](https://adventofcode.com/2020/day/4)   | [Day4.txt](./data/Day4.txt)   | [Day4.jl](./src/Day4.jl)   | String Parsing                  |
 | [Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)       | [Day5.txt](./data/Day5.txt)   | [Day5.jl](./src/Day5.jl)   | Binary Space Partitioning, Sets |
+| [Day 6: Custom Customs](https://adventofcode.com/2020/day/6)        | [Day6.txt](./data/Day6.txt)   | [Day6.jl](./src/Day6.jl)   | Sets                            |
 
 ## Install
 

@@ -112,3 +112,25 @@ end
     @test AdventOfCode2020.Day5.find_seat("FFFBBBFRRR") == 119
     @test AdventOfCode2020.Day5.find_seat("BBFFBBFRLL") == 820
 end
+
+@testset "Day 6" begin
+    example = """
+    abc
+    
+    a
+    b
+    c
+    
+    ab
+    ac
+    
+    a
+    a
+    a
+    a
+    
+    b
+    """
+
+    @test AdventOfCode2020.Day6.solve(IOBuffer(example)) == (11, 6)
+end
