@@ -13,6 +13,7 @@ My solutions to [Advent of Code 2020](https://adventofcode.com/2020) using Julia
 | [Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)       | [Day5.txt](./data/Day5.txt)   | [Day5.jl](./src/Day5.jl)   | Binary Space Partitioning, Sets |
 | [Day 6: Custom Customs](https://adventofcode.com/2020/day/6)        | [Day6.txt](./data/Day6.txt)   | [Day6.jl](./src/Day6.jl)   | Sets                            |
 | [Day 7: Handy Haversacks](https://adventofcode.com/2020/day/7)      | [Day7.txt](./data/Day7.txt)   | [Day7.jl](./src/Day7.jl)   | Recursion                       |
+| [Day 7: Handheld Halting](https://adventofcode.com/2020/day/8)      | [Day8.txt](./data/Day8.txt)   | [Day8.jl](./src/Day8.jl)   | Assembly Language               |
 
 ## Install
 

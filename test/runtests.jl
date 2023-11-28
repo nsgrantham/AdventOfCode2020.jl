@@ -148,6 +148,21 @@ end
     dotted black bags contain no other bags.
     """
 
-    @test AdventOfCode2020.Day7.solve(IOBuffer(example)) == (4, 32)
-  
+    @test AdventOfCode2020.Day7.solve(IOBuffer(example)) == (4, 32)  
+end
+
+@testset "Day 8" begin
+    example = """
+    nop +0
+    acc +1
+    jmp +4
+    acc +3
+    jmp -3
+    acc -99
+    acc +1
+    jmp -4
+    acc +6
+    """
+
+    @test AdventOfCode2020.Day8.solve(IOBuffer(example)) == (5, 8)
 end
