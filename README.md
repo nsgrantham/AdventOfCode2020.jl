@@ -14,6 +14,7 @@ My solutions to [Advent of Code 2020](https://adventofcode.com/2020) using Julia
 | [Day 6: Custom Customs](https://adventofcode.com/2020/day/6)        | [Day6.txt](./data/Day6.txt)   | [Day6.jl](./src/Day6.jl)   | Sets                            |
 | [Day 7: Handy Haversacks](https://adventofcode.com/2020/day/7)      | [Day7.txt](./data/Day7.txt)   | [Day7.jl](./src/Day7.jl)   | Recursion                       |
 | [Day 8: Handheld Halting](https://adventofcode.com/2020/day/8)      | [Day8.txt](./data/Day8.txt)   | [Day8.jl](./src/Day8.jl)   | Assembly Language               |
+| [Day 9: Encoding Error](https://adventofcode.com/2020/day/9)        | [Day9.txt](./data/Day9.txt)   | [Day9.jl](./src/Day9.jl)   | Loops, Sets                     |
 
 ## Install
 

@@ -166,3 +166,31 @@ end
 
     @test AdventOfCode2020.Day8.solve(IOBuffer(example)) == (5, 8)
 end
+
+
+@testset "Day 9" begin
+    example = """
+    35
+    20
+    15
+    25
+    47
+    40
+    62
+    55
+    65
+    95
+    102
+    117
+    150
+    182
+    127
+    219
+    299
+    277
+    309
+    576
+    """
+
+    @test AdventOfCode2020.Day9.solve(IOBuffer(example), n=5) == (127, 62)
+end
